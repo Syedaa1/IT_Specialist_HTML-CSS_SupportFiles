@@ -7,21 +7,24 @@
         #blue {
             background-color: lightblue;
             border: 1px solid black;
-            width:250px;
-            height:250px;
+            width: 250px;
+            height: 250px;
+            float: left; /* Added */
         }
         #yellow {
             background-color: yellow;
             border: 1px solid black;
             width: 250px;
             height: 250px;
+            float: left; /* Added */
+            clear: both; /* Added */
         }
         #coral {
             background-color: lightcoral;
             border: 1px solid black;
             width: 750px;
             height: 250px;
-            max-width:750px;
+            max-width: 750px;
         }
     </style>
 </head>
@@ -49,7 +52,19 @@
         Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
         Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
-
     </div>
+
+    <script>
+        // Instructions:
+        // 1. Open the 51af-positioningexample.html file in the MusicStore5 student folder.
+        // 2. In the style sheet, add a property/value pair to the blue rule set that sets the float property to left
+        // 3. In the yellow rule, add a property/value pair that sets the float property to left
+        // 4. Save your changes.
+        // 5. Preview the webpage in a web browser. Notice that the blue element now floats to the left of the yellow element and the yellow element floats to the left of the coral element, but the text is spilling out of the coral element.
+        // 6. Return to the code editor.
+        // 7. In the yellow rule, add a property/value pair that sets the clear property to both
+        // 8. Save your changes.
+        // 9. Preview the webpage in a browser. You should see the blue and coral elements side by side at the top, with the yellow element on the lower left part of the page, alone.
+    </script>
 </body>
 </html>
