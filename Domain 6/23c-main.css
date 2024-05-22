@@ -1,31 +1,26 @@
-﻿body
-{
-    font-family:"Segoe UI",Tahoma,sans-serif;
-    background-color:#fab66b;
+body {
+    font-family: "Arial", "Segoe UI", sans-serif;
+    background-color: #fab66b;
 }
 p {
     color: navy;
+    font-family: "Arial", "Segoe UI", sans-serif;
 }
 a {
-    text-decoration:none;
+    text-decoration: none;
 }
-/* 
-    The background color extends across the page, so we have
-    commented it out for now.
-*/
 figcaption {
     color: navy;
     font-weight: bold;
-    /*background-color: aqua;*/
 }
 a:hover {
-    text-decoration:underline;
-    font-weight:bold;
+    text-decoration: underline;
+    font-weight: bold;
 }
 .sale {
-    font-weight:bold;
-    background-color:aqua;
+    font-weight: bold;
+    background-color: aqua;
 }
 #sidenote {
-    background-color:#dbd9d9;
+    background-color: #dbd9d9;
 }
