@@ -2,21 +2,21 @@ ul{
   list-style-type:none;
   margin:0;
   padding:0;
-  
-  background-color:purple;
-
+  background-color:sage green;
 }
 li{
  display: block;
   float:left;
 }
-li a{
-  color:red;
+li a, .dropbtn{
+  display:inline-block;
+  color:white;
   text-align:center;
-  padding:10px 12px;
+  padding:14px 16px;
+  text-decoration: none;
 }
-li a:hover{
-  background-color:#111;
+li a:hover, .dropdown:hover .dropbtn{
+  background-color:#red;
 }
 .active {
   background-color:pink;
