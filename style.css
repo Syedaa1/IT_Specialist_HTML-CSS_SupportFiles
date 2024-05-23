@@ -4,33 +4,34 @@ ul{
   padding:0;
   overflow:hidden;
   background-color:#777;
-
+  float:left;
 }
 li{
-  display:block;
+ display: block;
   float:left;
 }
 li a{
   color:red;
-  text-align: center;
-  padding: 10px 12px;
+  text-align:center;
+  padding:10px 12px;
 }
 li a:hover{
-  background-color:#111;
+  background-color:pink;
 }
-.active{
-  background-color:#04aa6d;
+.active {
+  background-color:pink;
 }
-.dropDrown{
-  position:relative;
+.dropDown{
+position:relative;
   display:inline-block;
   cursor:pointer;
 }
 .dropDown-content{
-display:none;
-position:absolute;
+  display:none;
+  position:absoulte;
   z-index:1;
 }
-  .dropDown:hover .dropDown-content{
-    display:block;
-  }
+.dropDown:hover .dropDown-content{
+  display:block;
+}
+
