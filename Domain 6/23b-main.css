@@ -10,7 +10,7 @@ p {
 a {
     text-decoration: none;
 }
-
+/*background color extends across the page so, we have commented it out for now*/ 
 figcaption {
     color: navy;
     font-weight: bold;
